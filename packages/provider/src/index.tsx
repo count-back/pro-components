@@ -1,6 +1,5 @@
 import type { Theme } from '@ant-design/cssinjs';
 import { useCacheToken } from '@ant-design/cssinjs';
-import { omitUndefined } from '@ant-design/pro-utils';
 import { ConfigProvider as AntdConfigProvider } from 'antd';
 
 import zh_CN from 'antd/lib/locale/zh_CN';
@@ -22,6 +21,25 @@ import 'dayjs/locale/zh-cn';
 export * from './intl';
 export * from './useStyle';
 export { DeepPartial, ProTokenType };
+
+type OmitUndefined<T> = {
+  [P in keyof T]: NonNullable<T[P]>;
+};
+
+const omitUndefined = <T extends Record<string, any>>(
+  obj: T,
+): OmitUndefined<T> => {
+  const newObj = {} as Record<string, any> as T;
+  Object.keys(obj || {}).forEach((key) => {
+    if (obj[key] !== undefined) {
+      (newObj as any)[key] = obj[key];
+    }
+  });
+  if (Object.keys(newObj as Record<string, any>).length < 1) {
+    return undefined as any;
+  }
+  return newObj as OmitUndefined<T>;
+};
 
 /**
  * 用于判断当前是否需要开启哈希（Hash）模式。
@@ -307,6 +325,8 @@ const ConfigProviderContainer: React.FC<{
     //Fix issue with hashId code
     if (isNeedOpenHash() === false) {
       return '';
+    } else if (tokenContext.hashId) {
+      return tokenContext.hashId;
     } else {
       // 生产环境或其他环境
       return nativeHashId;

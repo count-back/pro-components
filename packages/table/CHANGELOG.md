@@ -1,18 +1,132 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.15.2](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.1...@ant-design/pro-table@3.15.2) (2024-03-27)
+## [3.18.2](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.18.1...@ant-design/pro-table@3.18.2) (2024-11-14)
 
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.18.1](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.18.0...@ant-design/pro-table@3.18.1) (2024-10-22)
 
 ### Bug Fixes
 
-* **table:** densityLarger中文简体和繁体国际化，文案问题修改 ([#8241](https://github.com/ant-design/pro-components/issues/8241)) ([058e087](https://github.com/ant-design/pro-components/commit/058e0876fa532dad85405b21a84787ddfa4ec80d))
+- **package:** 更新 repository URL 格式为 git+ssh 以确保一致性 ([8882d51](https://github.com/ant-design/pro-components/commit/8882d5164d8b14f8971bf9f34a339d282ac766ba))
 
+# [3.18.0](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.17.2...@ant-design/pro-table@3.18.0) (2024-10-17)
 
+### Bug Fixes
 
+- replace `lodash-es` imports with `lodash` in CJS builds ([#8754](https://github.com/ant-design/pro-components/issues/8754)) ([3ef9283](https://github.com/ant-design/pro-components/commit/3ef9283a4cf52b8106d049af49f41dc37bb448b1))
 
+### Features
+
+- added exports to support ESM environments such as vitest ([#8738](https://github.com/ant-design/pro-components/issues/8738)) ([71c4be9](https://github.com/ant-design/pro-components/commit/71c4be9c9ca5942154e0473e62be608d784d53fc))
+
+## [3.17.2](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.17.1...@ant-design/pro-table@3.17.2) (2024-09-12)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.17.1](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.17.0...@ant-design/pro-table@3.17.1) (2024-09-12)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+# [3.17.0](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.16.6...@ant-design/pro-table@3.17.0) (2024-09-05)
+
+### Bug Fixes
+
+- columnsState.defaultValue be modified with lodash merge function ([#8659](https://github.com/ant-design/pro-components/issues/8659)) ([9151e33](https://github.com/ant-design/pro-components/commit/9151e33dcbb0ca82e546bf9b930aeed4d73daa85))
+- defaultCurrent 搭配 defaultData 一直为 1 的问题修复 ([#8683](https://github.com/ant-design/pro-components/issues/8683)) ([b16568e](https://github.com/ant-design/pro-components/commit/b16568ef127a2c06d724947efa35a1138983bdf7)), closes [#8677](https://github.com/ant-design/pro-components/issues/8677)
+- **card:** card padding when hideToolbar ([#8635](https://github.com/ant-design/pro-components/issues/8635)) ([5e77886](https://github.com/ant-design/pro-components/commit/5e778863a69913c1e2f6c1297b53d5ae8fd790d9))
+
+### Features
+
+- **Form:** FormRef support forward nativeElement ([#8632](https://github.com/ant-design/pro-components/issues/8632)) ([d113207](https://github.com/ant-design/pro-components/commit/d1132070c4d7b2df3bfaebe33615faa007ea6ceb))
+
+## [3.16.6](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.16.5...@ant-design/pro-table@3.16.6) (2024-08-05)
+
+### Bug Fixes
+
+- **table:** don't spread key to children ([#8588](https://github.com/ant-design/pro-components/issues/8588)) ([be5d0ad](https://github.com/ant-design/pro-components/commit/be5d0adf4811d5dc59b53af8100c55187e828ca1))
+
+### Performance Improvements
+
+- lodash => lodash-es ([#8606](https://github.com/ant-design/pro-components/issues/8606)) ([455b4f1](https://github.com/ant-design/pro-components/commit/455b4f1bb1edfd896c04d98c37da6f97fb2428cb))
+
+## [3.16.5](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.16.4...@ant-design/pro-table@3.16.5) (2024-07-18)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.16.4](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.16.3...@ant-design/pro-table@3.16.4) (2024-07-16)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.16.3](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.16.2...@ant-design/pro-table@3.16.3) (2024-07-15)
+
+### Bug Fixes
+
+- **table:** fix canel editort no work error ([2b60fe5](https://github.com/ant-design/pro-components/commit/2b60fe50d6dd6616c685a85b4b8f0e04927b1940))
+
+## [3.16.2](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.16.1...@ant-design/pro-table@3.16.2) (2024-06-21)
+
+### Reverts
+
+- Revert "fixed(table): wrap ProTable component with DndContext (#8414)" (#8509) ([f9b5c74](https://github.com/ant-design/pro-components/commit/f9b5c743dd425a5b75c75e6ae043e0c1a56161ca)), closes [#8414](https://github.com/ant-design/pro-components/issues/8414) [#8509](https://github.com/ant-design/pro-components/issues/8509)
+
+## [3.16.1](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.16.0...@ant-design/pro-table@3.16.1) (2024-06-08)
+
+### Bug Fixes
+
+- 修复 pro-table 文档案例代码里 Dropdown 内元素 key 冲突问题 ([#8469](https://github.com/ant-design/pro-components/issues/8469)) ([1c8714c](https://github.com/ant-design/pro-components/commit/1c8714c021460ee48d93d7ef9ba5b8533e313850))
+
+# [3.16.0](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.9...@ant-design/pro-table@3.16.0) (2024-05-20)
+
+### Bug Fixes
+
+- **table:** 修 columnsMap 重新赋值时总是使用默认值的问题 ([#8384](https://github.com/ant-design/pro-components/issues/8384)) ([7c57399](https://github.com/ant-design/pro-components/commit/7c573992f89087d349d93fb95c514f146e9a4ac8))
+
+### Features
+
+- **table:** table support RowEditorTable and CellEditorTable ([013877d](https://github.com/ant-design/pro-components/commit/013877d41ab57153b8deb8cfb8f437a9b5a9e419))
+
+## [3.15.10](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.9...@ant-design/pro-table@3.15.10) (2024-04-21)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.15.9](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.8...@ant-design/pro-table@3.15.9) (2024-04-21)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.15.8](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.7...@ant-design/pro-table@3.15.8) (2024-04-20)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.15.7](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.5...@ant-design/pro-table@3.15.7) (2024-04-20)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.15.6](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.5...@ant-design/pro-table@3.15.6) (2024-04-19)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.15.5](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.4...@ant-design/pro-table@3.15.5) (2024-04-19)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.15.4](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.3...@ant-design/pro-table@3.15.4) (2024-04-17)
+
+**Note:** Version bump only for package @ant-design/pro-table
+
+## [3.15.3](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.2...@ant-design/pro-table@3.15.3) (2024-04-17)
+
+### Bug Fixes
+
+- **table:** Custom components.body no work error ([#8281](https://github.com/ant-design/pro-components/issues/8281)) ([1dd2379](https://github.com/ant-design/pro-components/commit/1dd2379b94b3c78a99d6e3bfa08877f7c418d579))
+
+## [3.15.2](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.1...@ant-design/pro-table@3.15.2) (2024-03-27)
+
+### Bug Fixes
+
+- **table:** densityLarger 中文简体和繁体国际化，文案问题修改 ([#8241](https://github.com/ant-design/pro-components/issues/8241)) ([058e087](https://github.com/ant-design/pro-components/commit/058e0876fa532dad85405b21a84787ddfa4ec80d))
 
 ## [3.15.1](https://github.com/ant-design/pro-components/compare/@ant-design/pro-table@3.15.0...@ant-design/pro-table@3.15.1) (2024-03-20)
 

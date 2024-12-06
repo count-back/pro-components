@@ -46,27 +46,27 @@ PageContainer 封装了 antd 的 PageHeader 组件，增加了 tabList 和 conte
 
 ### 基本使用
 
-<code src="./demos/basic.tsx" title="基本使用" iframe="650px" desc="基本使用"></code>
+<code src="./demos/basic.tsx" title="基本使用" iframe="650" desc="基本使用"></code>
 
 ### 固定表头
 
-<code src="./demos/fixHeader.tsx" title="固定表头" iframe="650px" desc="通过 `fixedHeader` 固定表头，只有在溢出容器时才会开始计算。"></code>
+<code src="./demos/fixHeader.tsx" title="固定表头" iframe="650" desc="通过 `fixedHeader` 固定表头，只有在溢出容器时才会开始计算。"></code>
 
 ### 隐藏面包屑
 
-<code src="./demos/hideBreadMenu.tsx" title="隐藏面包屑" iframe="650px" desc="不配置 `header` 属性中的 `breadcrumb` 即可。"></code>
+<code src="./demos/hideBreadMenu.tsx" title="隐藏面包屑" iframe="650" desc="不配置 `header` 属性中的 `breadcrumb` 即可。"></code>
 
 ### 页面加载中
 
-<code src="./demos/loading.tsx" title="页面加载中" iframe="650px" desc="通过 `loading` 属性配置页面加载。"></code>
+<code src="./demos/loading.tsx" title="页面加载中" iframe="650" desc="通过 `loading` 属性配置页面加载。"></code>
 
 ### 修改 Token
 
-<code src="./demos/token.tsx" title="token" iframe="650px" desc="通过 `token` 调整间距。"></code>
+<code src="./demos/token.tsx" title="token" iframe="650" desc="通过 `token` 调整间距。"></code>
 
 ## PageContainer
 
-PageContainer 封装了 ant design 的 PageHeader 组件，增加了 tabList 和 content。 根据当前的路由填入 title 和 breadcrumb。它依赖 Layout 的 route 属性。当然你可以传入参数来覆写默认值。 PageContainer 支持 [Tabs](https://ant.design/components/tabs-cn/) 和 [PageHeader](https://4x.ant.design/components/page-header-cn/) 的所有属性。
+PageContainer 封装了 ant design 的 PageHeader 组件，增加了 tabList 和 content。 根据当前的路由填入 title 和 breadcrumb。它依赖 Layout 的 route 属性。当然你可以传入参数来覆写默认值。 PageContainer 支持 [Tabs](https://ant.design/components/tabs-cn/) 和 [PageHeader](https://procomponents.ant.design/components/page-header) 的所有属性。
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
@@ -76,7 +76,7 @@ PageContainer 封装了 ant design 的 PageHeader 组件，增加了 tabList 和
 | tabActiveKey | 当前高亮的 tab 项 | string | - |
 | onTabChange | 切换面板的回调 | `(key) => void` | - |
 | tabBarExtraContent | tab bar 上额外的元素 | `React.ReactNode` | - |
-| header | [PageHeader](https://ant.design/components/page-header-cn/) 的所有属性 | `PageHeaderProps` | - |
+| header | [PageHeader](https://procomponents.ant.design/components/page-header) 的所有属性 | `PageHeaderProps` | - |
 | ghost | 配置头部区域的背景颜色为透明 | boolean | false |
 | fixedHeader | 固定 pageHeader 的内容到顶部，如果页面内容较少，最好不要使用，会有严重的遮挡问题 | `boolean` | - |
 | affixProps | 固钉的配置，与 antd 完全相同 | `AffixProps` | - |

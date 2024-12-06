@@ -2,7 +2,6 @@ import type { GenerateStyle } from '@ant-design/pro-provider';
 import { ProProvider } from '@ant-design/pro-provider';
 import type { AvatarProps, SiderProps } from 'antd';
 import { Avatar, Layout, Menu, Space, version } from 'antd';
-import type { ItemType } from 'antd/lib/menu/hooks/useItems';
 import classNames from 'classnames';
 import type { CSSProperties, FC, ReactNode } from 'react';
 import React, { useContext, useMemo } from 'react';
@@ -281,7 +280,7 @@ const SiderMenu: React.FC<SiderMenuProps & PrivateSiderMenuProps> = (props) => {
     [baseClassName, hashId, menuContentRender, onOpenChange, props],
   );
 
-  const linksMenuItems: ItemType[] = (links || []).map((node, index) => ({
+  const linksMenuItems: any[] = (links || []).map((node, index) => ({
     className: `${baseClassName}-link`,
     label: node,
     key: index,
@@ -345,11 +344,12 @@ const SiderMenu: React.FC<SiderMenuProps & PrivateSiderMenuProps> = (props) => {
     return (
       <AppsLogoComponents
         onItemClick={props.itemClick}
+        appListRender={props.appListRender}
         appList={props.appList}
         prefixCls={props.prefixCls}
       />
     );
-  }, [props.appList, props.prefixCls]);
+  }, [props.appList, props.appListRender, props.prefixCls]);
 
   const collapsedDom = useMemo(() => {
     if (collapsedButtonRender === false) return null;

@@ -12,6 +12,14 @@ export type LightSelectProps = {
   label?: string;
   placeholder?: any;
   valueMaxLength?: number;
+  /** 刷新数据 */
+  fetchData: (keyWord?: string) => void;
+  /**
+   * 当搜索关键词发生变化时是否请求远程数据
+   *
+   * @default true
+   */
+  fetchDataOnSearch?: boolean;
 } & ProFieldLightProps;
 
 /**
@@ -63,6 +71,8 @@ const LightSelect: React.ForwardRefRenderFunction<
     optionFilterProp,
     optionLabelProp = '',
     valueMaxLength = 41,
+    fetchDataOnSearch = false,
+    fetchData,
     ...restProps
   } = props;
   const { placeholder = label } = props;
@@ -156,7 +166,11 @@ const LightSelect: React.ForwardRefRenderFunction<
       }}
     >
       <Select
-        popupMatchSelectWidth={false}
+        /**
+         * popupMatchSelectWidth写死false会关闭虚拟滚动，数量量过大时，影响组件性能
+         * 将此属性注释掉，变成灵活的动态配置
+         */
+        // popupMatchSelectWidth={false}
         {...restProps}
         allowClear={allowClear}
         value={value}
@@ -172,7 +186,16 @@ const LightSelect: React.ForwardRefRenderFunction<
         }}
         {...compatibleBorder(bordered)}
         showSearch={showSearch}
-        onSearch={onSearch}
+        onSearch={
+          showSearch
+            ? (keyValue) => {
+                if (fetchDataOnSearch && fetchData) {
+                  fetchData(keyValue);
+                }
+                onSearch?.(keyValue);
+              }
+            : void 0
+        }
         style={style}
         dropdownRender={(menuNode) => {
           return (
@@ -184,11 +207,20 @@ const LightSelect: React.ForwardRefRenderFunction<
                     allowClear={!!allowClear}
                     onChange={(e) => {
                       setKeyword(e.target.value);
+                      if (fetchDataOnSearch && fetchData) {
+                        fetchData(e.target.value);
+                      }
                       onSearch?.(e.target.value);
                     }}
                     onKeyDown={(e) => {
                       // 避免按下删除键把选项也删除了
-                      e.stopPropagation();
+                      if (e.key === 'Backspace') {
+                        e.stopPropagation();
+                        return;
+                      }
+                      if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+                        e.preventDefault();
+                      }
                     }}
                     style={{ width: '100%' }}
                     prefix={<SearchOutlined />}

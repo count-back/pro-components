@@ -112,12 +112,12 @@ export type ProColumnType<T = unknown, ValueType = 'text'> = ProSchema<
 
     /** 在查询表单中隐藏 */
     search?:
-      | false
+      | boolean
       | {
           /**
            * Transform: (value: any) => ({ startTime: value[0], endTime: value[1] }),
            *
-           * @name 转化值的key, 一般用于事件区间的转化
+           * @name 转化值的key, 一般用于时间区间的转化
            */
           transform: SearchTransformKeyFn;
         };

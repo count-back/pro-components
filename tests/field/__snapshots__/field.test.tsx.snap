@@ -271,7 +271,7 @@ exports[`Field > 🐴 edit and no plain 1`] = `
                     </div>
                     <div
                       class="ant-picker-active-bar"
-                      style="position: absolute; width: 0px; left: 0px;"
+                      style="position: absolute; width: 0px;"
                     />
                     <span
                       class="ant-picker-suffix"
@@ -543,29 +543,33 @@ exports[`Field > 🐴 edit and no plain 1`] = `
                       class="ant-select-selector"
                     >
                       <span
-                        class="ant-select-selection-search"
+                        class="ant-select-selection-wrap"
                       >
-                        <input
-                          aria-autocomplete="list"
-                          aria-controls="rc_select_TEST_OR_SSR_list"
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-owns="rc_select_TEST_OR_SSR_list"
-                          autocomplete="off"
-                          class="ant-select-selection-search-input"
-                          id="rc_select_TEST_OR_SSR"
-                          readonly=""
-                          role="combobox"
-                          style="opacity: 0;"
-                          type="search"
-                          unselectable="on"
-                          value=""
-                        />
-                      </span>
-                      <span
-                        class="ant-select-selection-placeholder"
-                      >
-                        请选择
+                        <span
+                          class="ant-select-selection-search"
+                        >
+                          <input
+                            aria-autocomplete="list"
+                            aria-controls="rc_select_TEST_OR_SSR_list"
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-owns="rc_select_TEST_OR_SSR_list"
+                            autocomplete="off"
+                            class="ant-select-selection-search-input"
+                            id="rc_select_TEST_OR_SSR"
+                            readonly=""
+                            role="combobox"
+                            style="opacity: 0;"
+                            type="search"
+                            unselectable="on"
+                            value=""
+                          />
+                        </span>
+                        <span
+                          class="ant-select-selection-placeholder"
+                        >
+                          请选择
+                        </span>
                       </span>
                     </div>
                     <span
@@ -625,29 +629,33 @@ exports[`Field > 🐴 edit and no plain 1`] = `
                       class="ant-select-selector"
                     >
                       <span
-                        class="ant-select-selection-search"
+                        class="ant-select-selection-wrap"
                       >
-                        <input
-                          aria-autocomplete="list"
-                          aria-controls="rc_select_TEST_OR_SSR_list"
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-owns="rc_select_TEST_OR_SSR_list"
-                          autocomplete="off"
-                          class="ant-select-selection-search-input"
-                          id="rc_select_TEST_OR_SSR"
-                          readonly=""
-                          role="combobox"
-                          style="opacity: 0;"
-                          type="search"
-                          unselectable="on"
-                          value=""
-                        />
-                      </span>
-                      <span
-                        class="ant-select-selection-placeholder"
-                      >
-                        请选择
+                        <span
+                          class="ant-select-selection-search"
+                        >
+                          <input
+                            aria-autocomplete="list"
+                            aria-controls="rc_select_TEST_OR_SSR_list"
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-owns="rc_select_TEST_OR_SSR_list"
+                            autocomplete="off"
+                            class="ant-select-selection-search-input"
+                            id="rc_select_TEST_OR_SSR"
+                            readonly=""
+                            role="combobox"
+                            style="opacity: 0;"
+                            type="search"
+                            unselectable="on"
+                            value=""
+                          />
+                        </span>
+                        <span
+                          class="ant-select-selection-placeholder"
+                        >
+                          请选择
+                        </span>
                       </span>
                     </div>
                     <span
@@ -964,7 +972,7 @@ exports[`Field > 🐴 edit and no plain 1`] = `
                     </div>
                     <div
                       class="ant-picker-active-bar"
-                      style="position: absolute; width: 0px; left: 0px;"
+                      style="position: absolute; width: 0px;"
                     />
                     <span
                       class="ant-picker-suffix"
@@ -1065,7 +1073,7 @@ exports[`Field > 🐴 edit and no plain 1`] = `
                     </div>
                     <div
                       class="ant-picker-active-bar"
-                      style="position: absolute; width: 0px; left: 0px;"
+                      style="position: absolute; width: 0px;"
                     />
                     <span
                       class="ant-picker-suffix"
@@ -1487,7 +1495,7 @@ exports[`Field > 🐴 edit and plain=true 1`] = `
                     </div>
                     <div
                       class="ant-picker-active-bar"
-                      style="position: absolute; width: 0px; left: 0px;"
+                      style="position: absolute; width: 0px;"
                     />
                     <span
                       class="ant-picker-suffix"
@@ -1759,29 +1767,33 @@ exports[`Field > 🐴 edit and plain=true 1`] = `
                       class="ant-select-selector"
                     >
                       <span
-                        class="ant-select-selection-search"
+                        class="ant-select-selection-wrap"
                       >
-                        <input
-                          aria-autocomplete="list"
-                          aria-controls="rc_select_TEST_OR_SSR_list"
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-owns="rc_select_TEST_OR_SSR_list"
-                          autocomplete="off"
-                          class="ant-select-selection-search-input"
-                          id="rc_select_TEST_OR_SSR"
-                          readonly=""
-                          role="combobox"
-                          style="opacity: 0;"
-                          type="search"
-                          unselectable="on"
-                          value=""
-                        />
-                      </span>
-                      <span
-                        class="ant-select-selection-placeholder"
-                      >
-                        请选择
+                        <span
+                          class="ant-select-selection-search"
+                        >
+                          <input
+                            aria-autocomplete="list"
+                            aria-controls="rc_select_TEST_OR_SSR_list"
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-owns="rc_select_TEST_OR_SSR_list"
+                            autocomplete="off"
+                            class="ant-select-selection-search-input"
+                            id="rc_select_TEST_OR_SSR"
+                            readonly=""
+                            role="combobox"
+                            style="opacity: 0;"
+                            type="search"
+                            unselectable="on"
+                            value=""
+                          />
+                        </span>
+                        <span
+                          class="ant-select-selection-placeholder"
+                        >
+                          请选择
+                        </span>
                       </span>
                     </div>
                     <span
@@ -1841,29 +1853,33 @@ exports[`Field > 🐴 edit and plain=true 1`] = `
                       class="ant-select-selector"
                     >
                       <span
-                        class="ant-select-selection-search"
+                        class="ant-select-selection-wrap"
                       >
-                        <input
-                          aria-autocomplete="list"
-                          aria-controls="rc_select_TEST_OR_SSR_list"
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-owns="rc_select_TEST_OR_SSR_list"
-                          autocomplete="off"
-                          class="ant-select-selection-search-input"
-                          id="rc_select_TEST_OR_SSR"
-                          readonly=""
-                          role="combobox"
-                          style="opacity: 0;"
-                          type="search"
-                          unselectable="on"
-                          value=""
-                        />
-                      </span>
-                      <span
-                        class="ant-select-selection-placeholder"
-                      >
-                        请选择
+                        <span
+                          class="ant-select-selection-search"
+                        >
+                          <input
+                            aria-autocomplete="list"
+                            aria-controls="rc_select_TEST_OR_SSR_list"
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-owns="rc_select_TEST_OR_SSR_list"
+                            autocomplete="off"
+                            class="ant-select-selection-search-input"
+                            id="rc_select_TEST_OR_SSR"
+                            readonly=""
+                            role="combobox"
+                            style="opacity: 0;"
+                            type="search"
+                            unselectable="on"
+                            value=""
+                          />
+                        </span>
+                        <span
+                          class="ant-select-selection-placeholder"
+                        >
+                          请选择
+                        </span>
                       </span>
                     </div>
                     <span
@@ -2180,7 +2196,7 @@ exports[`Field > 🐴 edit and plain=true 1`] = `
                     </div>
                     <div
                       class="ant-picker-active-bar"
-                      style="position: absolute; width: 0px; left: 0px;"
+                      style="position: absolute; width: 0px;"
                     />
                     <span
                       class="ant-picker-suffix"
@@ -2281,7 +2297,7 @@ exports[`Field > 🐴 edit and plain=true 1`] = `
                     </div>
                     <div
                       class="ant-picker-active-bar"
-                      style="position: absolute; width: 0px; left: 0px;"
+                      style="position: absolute; width: 0px;"
                     />
                     <span
                       class="ant-picker-suffix"
@@ -2478,24 +2494,24 @@ Done in 9.70s.
                     class="ant-input ant-input-outlined"
                     type="text"
                     value="{
-  \\"compilerOptions\\": {
-    \\"target\\": \\"esnext\\",
-    \\"moduleResolution\\": \\"node\\",
-    \\"jsx\\": \\"preserve\\",
-    \\"esModuleInterop\\": true,
-    \\"experimentalDecorators\\": true,
-    \\"strict\\": true,
-    \\"forceConsistentCasingInFileNames\\": true,
-    \\"noImplicitReturns\\": true,
-    \\"declaration\\": true,
-    \\"skipLibCheck\\": true
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "declaration": true,
+    "skipLibCheck": true
   },
-  \\"include\\": [
-    \\"**/src\\",
-    \\"**/docs\\",
-    \\"scripts\\",
-    \\"**/demo\\",
-    \\".eslintrc.js\\"
+  "include": [
+    "**/src",
+    "**/docs",
+    "scripts",
+    "**/demo",
+    ".eslintrc.js"
   ]
 }"
                   />
@@ -2897,7 +2913,7 @@ exports[`Field > 🐴 options support dom list 1`] = `
     style="display: flex; gap: 16px; align-items: center;"
   >
     <button
-      class="ant-btn ant-btn-default"
+      class="ant-btn ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
       type="button"
     >
       <span>
@@ -2905,7 +2921,7 @@ exports[`Field > 🐴 options support dom list 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-default"
+      class="ant-btn ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
       type="button"
     >
       <span>
@@ -2924,7 +2940,7 @@ exports[`Field > 🐴 options support dom text 1`] = `
   >
     新建
     <button
-      class="ant-btn ant-btn-default"
+      class="ant-btn ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
       type="button"
     >
       <span>
@@ -2946,7 +2962,7 @@ exports[`Field > 🐴 options support one dom 1`] = `
     style="display: flex; gap: 16px; align-items: center;"
   >
     <button
-      class="ant-btn ant-btn-default"
+      class="ant-btn ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
       type="button"
     >
       <span>
@@ -3057,30 +3073,32 @@ exports[`Field > 🐴 percent=0 1`] = `
 exports[`Field > 🐴 progress support no number 1`] = `
 <DocumentFragment>
   <div
+    aria-valuemax="100"
+    aria-valuemin="0"
     aria-valuenow="NaN"
-    class="ant-progress ant-progress-status-normal ant-progress-line ant-progress-show-info ant-progress-small"
+    class="ant-progress ant-progress-status-normal ant-progress-line ant-progress-line-align-end ant-progress-line-position-outer ant-progress-show-info ant-progress-small"
     role="progressbar"
     style="min-width: 100px; max-width: 320px;"
   >
     <div
       class="ant-progress-outer"
-      style="width: 100%; height: 6px;"
+      style="width: 100%;"
     >
       <div
         class="ant-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ant-progress-bg ant-progress-bg-outer"
           style="width: 0%; height: 6px; --progress-percent: 0;"
         />
       </div>
+      <span
+        class="ant-progress-text ant-progress-text-end ant-progress-text-outer"
+        title="0%"
+      >
+        0%
+      </span>
     </div>
-    <span
-      class="ant-progress-text"
-      title="0%"
-    >
-      0%
-    </span>
   </div>
 </DocumentFragment>
 `;
@@ -3088,30 +3106,32 @@ exports[`Field > 🐴 progress support no number 1`] = `
 exports[`Field > 🐴 progress support string number 1`] = `
 <DocumentFragment>
   <div
+    aria-valuemax="100"
+    aria-valuemin="0"
     aria-valuenow="12"
-    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-show-info ant-progress-small"
+    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-line-align-end ant-progress-line-position-outer ant-progress-show-info ant-progress-small"
     role="progressbar"
     style="min-width: 100px; max-width: 320px;"
   >
     <div
       class="ant-progress-outer"
-      style="width: 100%; height: 6px;"
+      style="width: 100%;"
     >
       <div
         class="ant-progress-inner"
       >
         <div
-          class="ant-progress-bg"
+          class="ant-progress-bg ant-progress-bg-outer"
           style="width: 12%; height: 6px; --progress-percent: 0.12;"
         />
       </div>
+      <span
+        class="ant-progress-text ant-progress-text-end ant-progress-text-outer"
+        title="12%"
+      >
+        12%
+      </span>
     </div>
-    <span
-      class="ant-progress-text"
-      title="12%"
-    >
-      12%
-    </span>
   </div>
 </DocumentFragment>
 `;
@@ -3372,6 +3392,8 @@ exports[`Field > 🐴 read and plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
+                    aria-valuemax="100"
+                    aria-valuemin="0"
                     aria-valuenow="40"
                     class="ant-progress ant-progress-status-active ant-progress-steps ant-progress-show-info ant-progress-small"
                     role="progressbar"
@@ -3957,30 +3979,32 @@ exports[`Field > 🐴 read ant no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
+                    aria-valuemax="100"
+                    aria-valuemin="0"
                     aria-valuenow="40"
-                    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-show-info ant-progress-small"
+                    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-line-align-end ant-progress-line-position-outer ant-progress-show-info ant-progress-small"
                     role="progressbar"
                     style="min-width: 100px; max-width: 320px;"
                   >
                     <div
                       class="ant-progress-outer"
-                      style="width: 100%; height: 6px;"
+                      style="width: 100%;"
                     >
                       <div
                         class="ant-progress-inner"
                       >
                         <div
-                          class="ant-progress-bg"
+                          class="ant-progress-bg ant-progress-bg-outer"
                           style="width: 40%; height: 6px; --progress-percent: 0.4;"
                         />
                       </div>
+                      <span
+                        class="ant-progress-text ant-progress-text-end ant-progress-text-outer"
+                        title="40%"
+                      >
+                        40%
+                      </span>
                     </div>
-                    <span
-                      class="ant-progress-text"
-                      title="40%"
-                    >
-                      40%
-                    </span>
                   </div>
                 </span>
               </div>

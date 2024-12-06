@@ -1,3 +1,108 @@
+## @ant-design/pro-components@2.8.2
+
+`2024-11-14`
+
+- fix(table): React does not recognize the `showCount` prop on a DOM element. (#8856). [#8856](https://github.com/ant-design/pro-components/pull/#8856) [@leshalv](https://github.com/leshalv)
+
+## @ant-design/pro-components@2.8.0
+
+`2024-10-17`
+
+- fix(components):修复 ts 定义导致列名获取不到的问题 (#8795). [#8795](https://github.com/ant-design/pro-components/pull/#8795) [@qnnp-me](https://github.com/qnnp-me)
+- fix(form): field 为 checkbox 时设置了 fieldNames 后控制器报错的问题 React does not recognize the `fieldNames` prop on a DOM element (#8785). [#8785](https://github.com/ant-design/pro-components/pull/#8785) [@echoyl](https://github.com/echoyl)
+
+## @ant-design/pro-components@2.7.19
+
+- fix(layout): downgrade path-to-regexp to version 8.0.0 (#8732)
+- fix(layout): missing appListRender props (#8731) @Beeant
+
+## @ant-design/pro-components@2.7.18
+
+- refactor(layout): update path-to-regexp to version 8.1.0 (#8725)
+
+`2024-09-05`
+
+- feat(layout): add menuTextRender props. [1d65e22](https://github.com/ant-design/pro-components/commit/1d65e22)
+- fix(form): props title is not assignable to type ReactNode (#8682). [#8682](https://github.com/ant-design/pro-components/pull/#8682) [@jiAng](https://github.com/jiAng)
+- feat(Form): FormRef support forward nativeElement (#8632). [#8632](https://github.com/ant-design/pro-components/pull/#8632) [@红](https://github.com/红)
+- fix(field): keyboard events of search input in LightSelect (#8629). [#8629](https://github.com/ant-design/pro-components/pull/#8629) [@Anzimu](https://github.com/Anzimu)
+
+## @ant-design/pro-components@2.7.15
+
+`2024-08-05`
+
+- fix(form): pass the OptionType type of ProFormSelect to the inner Select (#8568). [#8568](https://github.com/ant-design/pro-components/pull/#8568) [@dreammaker7](https://github.com/dreammaker7)
+- fix(form): correct line height in list action (#8584). [#8584](https://github.com/ant-design/pro-components/pull/#8584) [@drizzlesconsin](https://github.com/drizzlesconsin)
+- feat(form): export ProFormTreeSelectProps (#8589). [#8589](https://github.com/ant-design/pro-components/pull/#8589) [@fnoopv](https://github.com/fnoopv)
+- fix(table): don't spread key to children (#8588). [#8588](https://github.com/ant-design/pro-components/pull/#8588) [@fnoopv](https://github.com/fnoopv)
+- feat(field): add localizedFormat plugin to dayjs (#8582). [#8582](https://github.com/ant-design/pro-components/pull/#8582) [@lynette-li](https://github.com/lynette-li)
+
+## @ant-design/pro-components@2.7.12
+
+`2024-07-15`
+
+- fix(form): Digit support stringMode. [5075113](https://github.com/ant-design/pro-components/commit/5075113)
+- fix(form): fix FormList size=small, icon is default size error. [d797fa7](https://github.com/ant-design/pro-components/commit/d797fa7)
+- fix(table): fix canel editort no work error. [2b60fe5](https://github.com/ant-design/pro-components/commit/2b60fe5)
+- fix(table): 解决 ProTable.editable.actionRender 无法获取最新 state 快照的问题（第二种改法） (#8549). [#8549](https://github.com/ant-design/pro-components/pull/#8549) [@ShuangxingYang](https://github.com/ShuangxingYang)
+
+## @ant-design/pro-components@2.7.11
+
+`2024-06-21`
+
+- fix(layout): PageHeader style and breadcrumb.routes prop (#8491). [#8491](https://github.com/ant-design/pro-components/pull/#8491) [@ChuChencheng](https://github.com/ChuChencheng)
+- fix(form): formItem help render type (#8482). [#8482](https://github.com/ant-design/pro-components/pull/#8482) [@yunho1017](https://github.com/yunho1017)
+
+## @ant-design/pro-components@2.7.10
+
+`2024-06-08`
+
+- feat(form): add form item help render type (#8462). [#8462](https://github.com/ant-design/pro-components/pull/#8462) [@Yuno](https://github.com/Yuno)
+- feat(form): the second field supports negative numbers (#8449). [#8449](https://github.com/ant-design/pro-components/pull/#8449) [@Geng](https://github.com/Geng)
+- fix(form):ProFormTimePicker.RangePicker 获取时间区间，当 name 超过两层时，值为日期+时间格式. [0ce8bcd](https://github.com/ant-design/pro-components/commit/0ce8bcd)
+- fix(form): 修复 openChange 打开时不触发问题 (#8403). [#8403](https://github.com/ant-design/pro-components/pull/#8403) [@beautiful-boyyy](https://github.com/beautiful-boyyy)
+
+## @ant-design/pro-components@2.7.9
+
+`2024-05-20`
+
+- fix(form): LightFilter + SearchSelect component support fetchDataOnSearch (#8363). [#8363](https://github.com/ant-design/pro-components/pull/#8363) [@zhuba-Ahhh](https://github.com/zhuba-Ahhh)
+- fix(form): SearchSelect scrolling error in grouping (#8365). [#8365](https://github.com/ant-design/pro-components/pull/#8365) [@zhuba-Ahhh](https://github.com/zhuba-Ahhh)
+- fix(form): 将 LightSelect 组件中，popupMatchSelectWidth={false}注释掉，变成灵活多变的动态配置，供用户自行配置。否则，popupMatchSelectWidth 写死 false 会关闭虚拟滚动，数量量过大时，影响组件性能 (#8354). [#8354](https://github.com/ant-design/pro-components/pull/#8354) [@gb853940223](https://github.com/gb853940223)
+- feat(table): table support RowEditorTable and CellEditorTable. [013877d](https://github.com/ant-design/pro-components/commit/013877d)
+- fix(table): 修 columnsMap 重新赋值时总是使用默认值的问题 (#8384). [#8384](https://github.com/ant-design/pro-components/pull/#8384) [@fnoopv](https://github.com/fnoopv)
+- fix(card): The extra element and title ellipsis in the checkcard are not functioning correctly when the title is too long (#8347). [#8347](https://github.com/ant-design/pro-components/pull/#8347) [@justnewneo](https://github.com/justnewneo)
+- chore(descriptions): Reveal the key to prevent errors (#8394). [#8394](https://github.com/ant-design/pro-components/pull/#8394) [@zhuba-Ahhh](https://github.com/zhuba-Ahhh)
+
+## @ant-design/pro-components@2.7.3
+
+`2024-04-19`
+
+- feat(card): CheckCard support children cards (#8325). [#8325](https://github.com/chenshuai2144/pro-components/pull/#8325) [@陈帅](https://github.com/陈帅)
+
+## @ant-design/pro-components@2.7.1
+
+`2024-04-17`
+
+- fix(components): compatible 5.13.0 border (#8296). [#8296](https://github.com/ant-design/pro-components/pull/#8296) [@leshalv](https://github.com/leshalv)
+- fix(layout): slove footerRender types error (#8280). [#8280](https://github.com/ant-design/pro-components/pull/#8280) [@ONLY-yours](https://github.com/ONLY-yours)
+- fix(layout):解决 Layout Menu 小屏幕下样式丢失的问题 (#8147). [#8147](https://github.com/ant-design/pro-components/pull/#8147) [@ONLY-yours](https://github.com/ONLY-yours)
+- fix(form): onOpenChange fires twice when opening ModalForm (#8311). [#8311](https://github.com/ant-design/pro-components/pull/#8311) [@zhuba-Ahhh](https://github.com/zhuba-Ahhh)
+- fix(form): FilterDropdown onClear setTempValue null (#8305). [#8305](https://github.com/ant-design/pro-components/pull/#8305) [@zhuba-Ahhh](https://github.com/zhuba-Ahhh)
+- feat(form): form list support transform. [7ea4fd1](https://github.com/ant-design/pro-components/commit/7ea4fd1)
+- fix(form): Fix the problem of FieldLabel activating style when the value is an array (#8287). [#8287](https://github.com/ant-design/pro-components/pull/#8287) [@zhuba-Ahhh](https://github.com/zhuba-Ahhh)
+- fix(table): Custom components.body no work error (#8281). [#8281](https://github.com/ant-design/pro-components/pull/#8281) [@zhuba-Ahhh](https://github.com/zhuba-Ahhh)
+- chore(table): update column search ts type (#8275). [#8275](https://github.com/ant-design/pro-components/pull/#8275) [@acfasj](https://github.com/acfasj)
+- fix(descriptions): Customized contentStyle (#8272). [#8272](https://github.com/ant-design/pro-components/pull/#8272) [@zhuba-Ahhh](https://github.com/zhuba-Ahhh)
+
+## @ant-design/pro-components@2.7.0
+
+`2024-03-27`
+
+- fix(form): DrawerForm ssr 错误 : window is not defined (#8244). [#8244](https://github.com/ant-design/pro-components/pull/#8244) [@edram](https://github.com/edram)
+- fix(table): densityLarger 中文简体和繁体国际化，文案问题修改 (#8241). [#8241](https://github.com/ant-design/pro-components/pull/#8241) [@lk0606](https://github.com/lk0606)
+- feat(card): ProCard support colStyle. [bfcf8aa](https://github.com/ant-design/pro-components/commit/bfcf8aa)
+
 ## @ant-design/pro-components@2.6.52
 
 `2024-03-22`
@@ -756,7 +861,7 @@
 `2022-11-30`
 
 - fix(layout): fix collapsedshowtitle style error. [e4dc580](https://github.com/ant-design/pro-components/commit/e4dc580)
-- fix (layout): 修复 Footer <a> 标签单独使用时带有下划线问题 (#6300). [#6300](https://github.com/ant-design/pro-components/pull/#6300) [@leshalv](https://github.com/leshalv)
+- fix (layout): 修复 Footer `<a>` 标签单独使用时带有下划线问题 (#6300). [#6300](https://github.com/ant-design/pro-components/pull/#6300) [@leshalv](https://github.com/leshalv)
 - feat(layout): support stylish. [60c0b54](https://github.com/ant-design/pro-components/commit/60c0b54)
 - fix(layout): better theme gen style. [fcbc182](https://github.com/ant-design/pro-components/commit/fcbc182)
 - fix(layout): update drawer style. [eb7ace8](https://github.com/ant-design/pro-components/commit/eb7ace8)
